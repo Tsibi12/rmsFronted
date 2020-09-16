@@ -3,7 +3,7 @@ import { SerialPicker, Chart} from './components';
 import styles from './App.module.css';
 import axios from 'axios';
 
-const url = 'http://localhost:4000';
+const url = 'https://rmsbackendapi.herokuapp.com';
 
 
 class App extends React.Component {

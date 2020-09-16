@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NativeSelect, FormControl } from '@material-ui/core';
 import axios from 'axios';
 import styles from './SerialPicker.module.css';
-const url = 'http://localhost:4000';
+const url = 'https://rmsbackendapi.herokuapp.com';
 
 const Serial = ({ handleCountryChange }) => {
   const [serial, setSerial] = useState([]);
